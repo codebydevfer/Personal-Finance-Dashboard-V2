@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-container: center;
+    /* border: 1px solid #111; */
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px #e0e0e0;
+    padding: 20px;
+}
+
+.container h1, .container h2{
+    padding: 20px;
+}
+
+.expenseForm{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.expenseForm input[type="number"], .expenseForm input[type="text"], .expenseForm input[type="date"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #111;
+    width: 80%;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.expenseForm button{
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #111;
+    border-right: 1px solid #111;
+    background-color: #fff;
+    margin: 0 5px;
+    width: 80%;
+    padding: 10px;
+}
