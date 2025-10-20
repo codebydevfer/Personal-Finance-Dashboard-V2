@@ -27,8 +27,9 @@ public class ExpenseController {
         return repository.findAll();
     }
 
-//    @GetMapping("/")
-//    public String home(){
-//        return "App running!";
-//    }
+    @DeleteMapping("/{id}")
+    public void deleteExpense(@PathVariable Integer id) {
+        repository.deleteById(id);
+    }
+
 }
