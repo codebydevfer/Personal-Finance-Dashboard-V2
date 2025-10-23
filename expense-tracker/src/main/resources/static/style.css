@@ -53,3 +53,48 @@ body{
     width: 80%;
     padding: 10px;
 }
+
+.charts-container{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+
+.charts-container h2{
+    padding: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*
+.charts-container canvas#categoryChart{
+    width: 200px;
+    height: 200px;
+}
+
+.charts-container canvas#monthlyChart{
+    width: 200px;
+    height: 200px;
+}
+*/
+
+.column1, .column2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px #e0e0e0;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+}
+
+canvas{
+    height: 200px;
+    width: 200px;
+}
